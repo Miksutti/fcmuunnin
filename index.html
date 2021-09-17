@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>°F-°C -muunnin</title>
-</head>
-<body>
-    <h1>°F-°C -muunnin</h1>
-    <form action="">
-        <label for="fahrenheit">Fahrenheit</label>
-        <input type="number" id="fahrenheit" name="fahrenheit">
-        <button type="submit">Muunna</button>
-    </form>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>°F-°C -muunnin</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="h1"> <h1>°F - °C -muunnin</h1> </div>
+            <div class="div1">
+                <form>
+                    <div class="div1_1"> <label>Fahrenheit</label> </div>
+                    <div class="div1_2"> <input type="number" id="inputF"> </div>
+                    <div class="div1_3"> <button type="button" id="button1">Muunna</button> </div>
+                </form>
+                <div class="div3">
+                    <p>
+                        <span id="fahrenheit"></span> °F = <span id="celsius"></span> °C
+                    </p>
+                </div>
+            </div>
 
-    <p>
-        <span id="fahrenheit">?</span> °F = <span id="celsius">?</span> °C
-    </p>
-</body>
+            <div class="div2">
+                <form>
+                    <div class="div2_1"> <label>Celsius</label> </div>
+                    <div class="div2_2"> <input type="number" id="inputC"> </div>
+                    <div class="div2_3"> <button type="button" id="button2">Muunna</button> </div>
+                </form>
+                <div class="div4">
+                    <p>
+                        <span id="celsius2"></span> °C = <span id="fahrenheit2"></span> °F
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </body>
 </html>
