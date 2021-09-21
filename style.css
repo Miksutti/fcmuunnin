@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 10% 40% 40% 10%;
-  grid-template-rows: 5em 25em 5em;
+  grid-template-rows: 5em 25em 20em;
 }
 
 .h1 {
@@ -44,7 +44,7 @@
 .div1_3 {
   text-align: center;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .div3 {
@@ -65,7 +65,7 @@
 .div2_3 {
   text-align: center;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .div4 {
